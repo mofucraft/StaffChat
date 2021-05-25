@@ -1,0 +1,6 @@
+name: StaffChat
+version: ${project.version}
+main: com.yiorno.staffchat.StaffChat
+commands:
+  sc:
+    permission: "mofucraft.staff"
