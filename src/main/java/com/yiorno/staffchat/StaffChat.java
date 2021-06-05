@@ -39,7 +39,7 @@ public final class StaffChat extends Plugin implements Listener {
             return;
         }
 
-        if(e.getMessage().contains("/")){
+        if((e.getMessage().startsWith("/")) || (e.getMessage().startsWith("!"))){
             return;
         }
 
